@@ -72,8 +72,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_cdmj2"]
 _data = {
-"RESET": SubResource("Animation_4yea7"),
-"spark": SubResource("Animation_r8t1i")
+&"RESET": SubResource("Animation_4yea7"),
+&"spark": SubResource("Animation_r8t1i")
 }
 
 [node name="Sparks" type="GPUParticles3D"]
@@ -90,6 +90,6 @@ draw_pass_1 = SubResource("BoxMesh_6i0mp")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_cdmj2")
+&"": SubResource("AnimationLibrary_cdmj2")
 }
 autoplay = "spark"

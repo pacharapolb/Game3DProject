@@ -1,7 +1,7 @@
 [gd_scene load_steps=22 format=3 uid="uid://dr6w1us6dxk6s"]
 
 [ext_resource type="PackedScene" uid="uid://ck0u5t08sjghc" path="res://actors/player.tscn" id="1_r6gyw"]
-[ext_resource type="Script" path="res://ui/fps_counter.gd" id="2_2hdwh"]
+[ext_resource type="Script" uid="uid://biiuuo0u8mfbu" path="res://ui/fps_counter.gd" id="2_2hdwh"]
 [ext_resource type="Material" uid="uid://bv625k3vb3dv6" path="res://levels/materials/noisyorange.tres" id="3_3lnbn"]
 [ext_resource type="Material" uid="uid://tpkrpqwyt1gc" path="res://levels/materials/grass_mat.tres" id="3_vxwe4"]
 [ext_resource type="Shader" uid="uid://dw68wuawvb62r" path="res://levels/materials/grass_shader.tres" id="3_xtw4l"]

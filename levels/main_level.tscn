@@ -15,10 +15,10 @@
 [ext_resource type="PackedScene" uid="uid://d3xl40dfwsvky" path="res://assets/props/Light.glb" id="11_n5yrt"]
 [ext_resource type="PackedScene" uid="uid://dygcjnjdfcxba" path="res://assets/props/Pillar.glb" id="11_yn0i0"]
 [ext_resource type="PackedScene" uid="uid://da8osprxg61mb" path="res://assets/props/Pipes.glb" id="12_guoo7"]
-[ext_resource type="Script" path="res://actors/props/blinking_light.gd" id="13_4x4xi"]
+[ext_resource type="Script" uid="uid://p2afrxfvbthr" path="res://actors/props/blinking_light.gd" id="13_4x4xi"]
 [ext_resource type="PackedScene" uid="uid://b7poke4jm7bkv" path="res://assets/props/Vent.glb" id="13_rvoef"]
 [ext_resource type="PackedScene" uid="uid://ktcoulgwfv04" path="res://assets/props/Monitor.glb" id="17_3ev63"]
-[ext_resource type="Script" path="res://ui/fps_counter.gd" id="17_a7m4u"]
+[ext_resource type="Script" uid="uid://biiuuo0u8mfbu" path="res://ui/fps_counter.gd" id="17_a7m4u"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_53tha"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
