@@ -2,17 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3x0hh5qhve41"
-path.s3tc="res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.s3tc.ctex"
+uid="uid://hjifigddwho"
+path.s3tc="res://.godot/imported/Drone_Palette-Colour-Base.png-0688cbe3c439cda82fd071d3b49c903e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={
+"md5": "3ca9b4f8b21af022b4179d1a5f0b0849"
+}
 
 [deps]
 
-source_file="res://icon.svg"
-dest_files=["res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.s3tc.ctex"]
+source_file="res://assets/mesh/Drone_Palette-Colour-Base.png"
+dest_files=["res://.godot/imported/Drone_Palette-Colour-Base.png-0688cbe3c439cda82fd071d3b49c903e.s3tc.ctex"]
 
 [params]
 
@@ -33,6 +36,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=0
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false
