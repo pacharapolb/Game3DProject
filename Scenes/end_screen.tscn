@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://b1w22fm17nfi7"]
+[gd_scene load_steps=8 format=3 uid="uid://b1w22fm17nfi7"]
 
 [ext_resource type="Texture2D" uid="uid://c20kdtuda0idp" path="res://9df0bd08-bcd2-4678-a63f-062cd4f16656.jpg" id="1_j7mma"]
 [ext_resource type="Texture2D" uid="uid://dt10yww4isit2" path="res://Images/UI/Level select/Go back.png" id="2_b1jmy"]
 [ext_resource type="Texture2D" uid="uid://hdlehecwkjx1" path="res://Images/UI/Level select/Hovred go back.png" id="3_omvwk"]
+[ext_resource type="FontFile" uid="uid://c8xu7afu4hwpp" path="res://Fonts/ADLaMDisplay-Regular.ttf" id="4_o7qr4"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_enq4b"]
 texture = ExtResource("3_omvwk")
@@ -46,3 +47,13 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_enq4b")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_enq4b")
 theme_override_styles/normal = SubResource("StyleBoxTexture_70y1w")
 script = SubResource("GDScript_7kb42")
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_left = 559.0
+offset_top = 170.0
+offset_right = 1317.0
+offset_bottom = 275.0
+theme_override_colors/font_color = Color(0.905269, 2.31028e-06, 4.81307e-07, 1)
+theme_override_fonts/font = ExtResource("4_o7qr4")
+theme_override_font_sizes/font_size = 80
+text = "congratulations!!!!!!"
