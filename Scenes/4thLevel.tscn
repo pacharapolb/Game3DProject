@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=3 uid="uid://br3png56h5d3"]
+[gd_scene load_steps=30 format=3 uid="uid://br3png56h5d3"]
 
 [ext_resource type="PackedScene" uid="uid://c0yhafp0r7o3i" path="res://Scenes/Player.tscn" id="1_nj6ol"]
 [ext_resource type="Material" uid="uid://dw44bojmeucsk" path="res://Materiels/Ground.tres" id="2_4hggq"]
@@ -36,7 +36,11 @@ albedo_color = Color(0, 0, 0, 1)
 [sub_resource type="BoxMesh" id="BoxMesh_s2juo"]
 material = SubResource("StandardMaterial3D_jy0ay")
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nw0gq"]
+albedo_color = Color(1, 1, 0.0352941, 1)
+
 [sub_resource type="BoxMesh" id="BoxMesh_emwl0"]
+material = SubResource("StandardMaterial3D_nw0gq")
 size = Vector3(3, 0.2, 3)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_sgjxb"]

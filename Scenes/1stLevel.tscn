@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=3 uid="uid://bfkr0q6e0x8nu"]
+[gd_scene load_steps=38 format=3 uid="uid://bfkr0q6e0x8nu"]
 
 [ext_resource type="PackedScene" uid="uid://c0yhafp0r7o3i" path="res://Scenes/Player.tscn" id="1_o1www"]
 [ext_resource type="Material" uid="uid://dw44bojmeucsk" path="res://Materiels/Ground.tres" id="2_2ue3k"]
@@ -22,7 +22,11 @@ size = Vector3(10, 0.5, 15)
 
 [sub_resource type="CameraAttributesPhysical" id="CameraAttributesPhysical_a4rvf"]
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_743ds"]
+albedo_color = Color(1, 0.06, 0.06, 1)
+
 [sub_resource type="BoxMesh" id="BoxMesh_emwl0"]
+material = SubResource("StandardMaterial3D_743ds")
 size = Vector3(3, 0.2, 3)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_sgjxb"]
