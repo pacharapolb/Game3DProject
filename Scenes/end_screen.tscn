@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://b1w22fm17nfi7"]
 
-[ext_resource type="Texture2D" uid="uid://4um8vwampu5q" path="res://Images/UI/End Screen/End screen.png" id="1_hvj6s"]
+[ext_resource type="Texture2D" uid="uid://c20kdtuda0idp" path="res://9df0bd08-bcd2-4678-a63f-062cd4f16656.jpg" id="1_j7mma"]
 [ext_resource type="Texture2D" uid="uid://dt10yww4isit2" path="res://Images/UI/Level select/Go back.png" id="2_b1jmy"]
 [ext_resource type="Texture2D" uid="uid://hdlehecwkjx1" path="res://Images/UI/Level select/Hovred go back.png" id="3_omvwk"]
 
@@ -30,9 +30,9 @@ scale = Vector2(0.282535, 0.295445)
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="EndScreen" type="Sprite2D" parent="CanvasLayer"]
-position = Vector2(948, 550)
-scale = Vector2(0.960328, 0.952328)
-texture = ExtResource("1_hvj6s")
+position = Vector2(988, 525.233)
+scale = Vector2(0.295672, 0.305807)
+texture = ExtResource("1_j7mma")
 
 [node name="Button" type="Button" parent="CanvasLayer"]
 custom_minimum_size = Vector2(150, 30)

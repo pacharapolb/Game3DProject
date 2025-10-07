@@ -1,7 +1,7 @@
 [gd_scene load_steps=31 format=3 uid="uid://cv2v78jjv682n"]
 
 [ext_resource type="Script" path="res://Scripts/PauseMenu.gd" id="1_ae8qs"]
-[ext_resource type="Texture2D" uid="uid://dyp15itub6lwt" path="res://Images/UI/Pause Menu/BG.png" id="2_kd2u1"]
+[ext_resource type="Texture2D" uid="uid://c20kdtuda0idp" path="res://9df0bd08-bcd2-4678-a63f-062cd4f16656.jpg" id="2_gpvgl"]
 [ext_resource type="Texture2D" uid="uid://clyprdqhro1rg" path="res://Images/UI/Pause Menu/Buttons/Continue.png" id="3_kj5eq"]
 [ext_resource type="Texture2D" uid="uid://dg8clasr6s8mh" path="res://Images/UI/Pause Menu/Buttons/Hovred Continue.png" id="4_pg52t"]
 [ext_resource type="StyleBox" uid="uid://bceveh0lb24ii" path="res://Images/UI/Themes/pause_menu.tres" id="5_364em"]
@@ -110,11 +110,12 @@ offset_bottom = 240.0
 grow_vertical = 2
 
 [node name="Bg" type="Sprite2D" parent="CanvasLayer/VBoxContainer"]
-visible = false
-position = Vector2(633, 162)
-texture = ExtResource("2_kd2u1")
+position = Vector2(105.5, 205.5)
+scale = Vector2(0.10927, 0.394651)
+texture = ExtResource("2_gpvgl")
 
 [node name="Continue" type="Button" parent="CanvasLayer/VBoxContainer"]
+modulate = Color(0, 0, 0, 1)
 custom_minimum_size = Vector2(450, 100)
 layout_mode = 2
 focus_neighbor_bottom = NodePath("../Options")
@@ -127,6 +128,7 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_1r1at")
 script = SubResource("GDScript_o0vhm")
 
 [node name="Options" type="Button" parent="CanvasLayer/VBoxContainer"]
+modulate = Color(0, 0, 0, 1)
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 focus_neighbor_top = NodePath("../Continue")
@@ -141,6 +143,7 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_pbb4f")
 script = ExtResource("7_x2wxl")
 
 [node name="Main Menu" type="Button" parent="CanvasLayer/VBoxContainer"]
+modulate = Color(0, 0, 0, 1)
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 focus_neighbor_top = NodePath("../Options")
@@ -155,6 +158,7 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_v01em")
 script = SubResource("GDScript_gmw8e")
 
 [node name="Quit" type="Button" parent="CanvasLayer/VBoxContainer"]
+modulate = Color(0, 0, 0, 1)
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 focus_neighbor_top = NodePath("../Main Menu")

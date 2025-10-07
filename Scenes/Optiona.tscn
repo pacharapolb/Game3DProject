@@ -1,6 +1,6 @@
 [gd_scene load_steps=42 format=3 uid="uid://cianckgi7rfrd"]
 
-[ext_resource type="Texture2D" uid="uid://dsgc0tvdnxa" path="res://Images/UI/Options/Pannel.png" id="1_oq1js"]
+[ext_resource type="Texture2D" uid="uid://c20kdtuda0idp" path="res://9df0bd08-bcd2-4678-a63f-062cd4f16656.jpg" id="1_jpysv"]
 [ext_resource type="Texture2D" uid="uid://dfdwtk701vbw0" path="res://Images/UI/about dev/exit.png" id="2_gve0r"]
 [ext_resource type="Texture2D" uid="uid://x6fybhbem16n" path="res://Images/UI/about dev/Hovred exit.png" id="3_4up8w"]
 [ext_resource type="Texture2D" uid="uid://doiony81dr1kt" path="res://Images/UI/Options/Graphic settings.png" id="4_vdsg6"]
@@ -102,16 +102,16 @@ offset_right = 1293.0
 offset_bottom = -55.0
 
 [node name="Pannel3" type="Sprite2D" parent="."]
-position = Vector2(625, 223)
-scale = Vector2(0.4, 0.4)
-texture = ExtResource("1_oq1js")
+position = Vector2(615.5, 261.5)
+scale = Vector2(0.206113, 0.197701)
+texture = ExtResource("1_jpysv")
 
 [node name="ExitBUT" type="Button" parent="Pannel3"]
 custom_minimum_size = Vector2(150, 150)
-offset_left = 1275.0
-offset_top = -707.5
-offset_right = 1425.0
-offset_bottom = -557.5
+offset_left = 2850.0
+offset_top = -1757.0
+offset_right = 3155.0
+offset_bottom = -1396.0
 theme_override_styles/focus = SubResource("StyleBoxTexture_t7ltb")
 theme_override_styles/hover = SubResource("StyleBoxTexture_t7ltb")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_t7ltb")

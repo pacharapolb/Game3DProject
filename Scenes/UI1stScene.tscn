@@ -26,13 +26,13 @@
 [ext_resource type="Script" path="res://Scripts/Options.gd" id="19_hepjx"]
 [ext_resource type="Texture2D" uid="uid://cxuu6yby6tqel" path="res://Images/UI/focus quit.png" id="23_jn0qa"]
 [ext_resource type="Script" path="res://Scripts/UI/Quit.gd" id="27_f8ge0"]
+[ext_resource type="Texture2D" uid="uid://c20kdtuda0idp" path="res://9df0bd08-bcd2-4678-a63f-062cd4f16656.jpg" id="33_thiuk"]
 [ext_resource type="Texture2D" uid="uid://4rc0pwcobt2v" path="res://Images/UI/about dev/Pannel.png" id="34_kfi7p"]
 [ext_resource type="Texture2D" uid="uid://dfdwtk701vbw0" path="res://Images/UI/about dev/exit.png" id="35_tlsa5"]
 [ext_resource type="Texture2D" uid="uid://x6fybhbem16n" path="res://Images/UI/about dev/Hovred exit.png" id="36_chs54"]
 [ext_resource type="Texture2D" uid="uid://bu6w5w2jmd8b5" path="res://Images/UI/about dev/Developer.png" id="37_7p15u"]
 [ext_resource type="Texture2D" uid="uid://bgdnh6h55p2nt" path="res://Images/UI/about dev/Game Project.png" id="39_sp8aa"]
 [ext_resource type="Texture2D" uid="uid://b3blwhsj2hlwk" path="res://Images/UI/about dev/Hovred Game project.png" id="40_5q3td"]
-[ext_resource type="Texture2D" uid="uid://dsgc0tvdnxa" path="res://Images/UI/Options/Pannel.png" id="41_tas7n"]
 [ext_resource type="Texture2D" uid="uid://doiony81dr1kt" path="res://Images/UI/Options/Graphic settings.png" id="42_dsk5b"]
 [ext_resource type="Texture2D" uid="uid://rh373eokncx1" path="res://Images/UI/Options/Hovrefd graphic settings.png" id="43_nxmvf"]
 [ext_resource type="LabelSettings" uid="uid://cau3uv6n5jqot" path="res://Images/UI/Options/Controls/Text.tres" id="44_q1doh"]
@@ -279,8 +279,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.493592, -2.63054)
 follow_viewport_enabled = true
 
 [node name="Pannel" type="Sprite2D" parent="UI/CanvasLayer"]
-position = Vector2(489, 357)
-scale = Vector2(0.3, -0.3)
+position = Vector2(481.675, 396.7)
+scale = Vector2(0.299137, -0.235474)
 texture = ExtResource("6_bk5vn")
 
 [node name="MarginContainer" type="MarginContainer" parent="UI/CanvasLayer"]
@@ -357,6 +357,7 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_oh3d5")
 script = ExtResource("19_hepjx")
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="UI/CanvasLayer/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(300, 120)
 layout_mode = 2
 
 [node name="Quit" type="Button" parent="UI/CanvasLayer/MarginContainer/VBoxContainer/HBoxContainer2"]
@@ -412,22 +413,23 @@ theme_override_styles/pressed = SubResource("StyleBoxTexture_kfoor")
 theme_override_styles/normal = SubResource("StyleBoxTexture_ua0a5")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="UI/CanvasLayer"]
+visible = false
 offset_left = 256.0
 offset_top = 259.6
 offset_right = 1506.0
 offset_bottom = 799.6
 
 [node name="Pannel3" type="Sprite2D" parent="UI/CanvasLayer/VBoxContainer"]
-position = Vector2(625, 223)
-scale = Vector2(0.4, 0.4)
-texture = ExtResource("41_tas7n")
+position = Vector2(610.5, 205.4)
+scale = Vector2(0.207256, 0.170957)
+texture = ExtResource("33_thiuk")
 
 [node name="ExitBUT" type="Button" parent="UI/CanvasLayer/VBoxContainer/Pannel3"]
 custom_minimum_size = Vector2(150, 150)
-offset_left = 1275.0
-offset_top = -707.5
-offset_right = 1425.0
-offset_bottom = -557.5
+offset_left = 2862.0
+offset_top = -1734.0
+offset_right = 3140.0
+offset_bottom = -1417.0
 theme_override_styles/focus = SubResource("StyleBoxTexture_t7ltb")
 theme_override_styles/hover = SubResource("StyleBoxTexture_t7ltb")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_t7ltb")
