@@ -7,7 +7,8 @@ sky_material = SubResource("PhysicalSkyMaterial_je4wo")
 process_mode = 1
 
 [resource]
-background_mode = 2
+background_mode = 1
+background_color = Color(0.951539, 0.534229, 0.44396, 1)
 sky = SubResource("Sky_g1aac")
 sky_custom_fov = 37.0
 ambient_light_source = 3
