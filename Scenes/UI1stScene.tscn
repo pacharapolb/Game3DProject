@@ -1,4 +1,4 @@
-[gd_scene load_steps=131 format=3 uid="uid://ghr5f8h3v0nr"]
+[gd_scene load_steps=103 format=3 uid="uid://ghr5f8h3v0nr"]
 
 [ext_resource type="Texture2D" uid="uid://dvhkcs5kas8n8" path="res://Images/UI/continue button.png" id="1_ukbyw"]
 [ext_resource type="Environment" uid="uid://q3hgyleo6eca" path="res://Enviroment/Enviroment.tres" id="1_v7d7x"]
@@ -7,13 +7,10 @@
 [ext_resource type="Texture2D" uid="uid://d1pk4w0xux728" path="res://Images/UI/options button.png" id="3_t3128"]
 [ext_resource type="Texture2D" uid="uid://b60lneuh8kwv8" path="res://Images/UI/Level select.png" id="4_47tcu"]
 [ext_resource type="Texture2D" uid="uid://cimed13xkhddj" path="res://Images/UI/hovred Continue.png" id="4_688ab"]
-[ext_resource type="Texture2D" uid="uid://dvfeida6dj3yt" path="res://Images/UI/about dev button.png" id="4_bfif2"]
 [ext_resource type="Texture2D" uid="uid://bncfa32ntqdby" path="res://Images/UI/hovred level select.png" id="5_cu0cg"]
 [ext_resource type="Texture2D" uid="uid://d2mn724pmblyn" path="res://Images/UI/quit button.png" id="5_o2uwe"]
 [ext_resource type="Texture2D" uid="uid://rlbi8gj11rhx" path="res://Images/UI/Pannel.png" id="6_bk5vn"]
 [ext_resource type="Texture2D" uid="uid://bvrl0cbjqiu6b" path="res://Images/UI/pressed continue.png" id="6_lbcjp"]
-[ext_resource type="Texture2D" uid="uid://uhv7x0loed2e" path="res://Images/UI/skin button.png" id="6_xca84"]
-[ext_resource type="Texture2D" uid="uid://ydjf5uj8oooq" path="res://Images/UI/project_logo.png" id="7_fco76"]
 [ext_resource type="StyleBox" uid="uid://c3bwguo0lxx6f" path="res://Images/UI/Themes/Disabled.tres" id="7_hrtdn"]
 [ext_resource type="Texture2D" uid="uid://bijv1obl6h8c4" path="res://Images/UI/focus continue.png" id="8_0y7yq"]
 [ext_resource type="Texture2D" uid="uid://j1fia05aynxd" path="res://Images/UI/hovred new game.png" id="8_hlh66"]
@@ -23,24 +20,16 @@
 [ext_resource type="Texture2D" uid="uid://c0cj64j7cgqd1" path="res://Images/UI/pressed options.png" id="12_3l85a"]
 [ext_resource type="Texture2D" uid="uid://b72kpn13cpipy" path="res://Images/UI/focus new game.png" id="12_mfq5g"]
 [ext_resource type="Script" path="res://Scripts/UI/New Game.gd" id="14_opp1x"]
-[ext_resource type="Texture2D" uid="uid://ctxf4nd2s535o" path="res://Images/UI/hovred about dev.png" id="14_sm2ma"]
-[ext_resource type="Texture2D" uid="uid://cpqbktma0idax" path="res://Images/UI/pressed about dev.png" id="15_mpbbv"]
 [ext_resource type="Texture2D" uid="uid://bmtvbnbxkxi7h" path="res://Images/UI/focus options.png" id="16_rs4dn"]
 [ext_resource type="Texture2D" uid="uid://o4htc1q3ody1" path="res://Images/UI/hovred quit.png" id="17_ocmyk"]
 [ext_resource type="Texture2D" uid="uid://50xgt7gd3cb1" path="res://Images/UI/pressed quit.png" id="18_hvtyd"]
 [ext_resource type="Script" path="res://Scripts/Options.gd" id="19_hepjx"]
-[ext_resource type="Texture2D" uid="uid://8j6ybpw07v1j" path="res://Images/UI/hovred skin.png" id="20_by87x"]
-[ext_resource type="Texture2D" uid="uid://cf8dplc64eg3n" path="res://Images/UI/focus about dev.png" id="20_c1vmu"]
-[ext_resource type="Texture2D" uid="uid://bwxpiakic84k2" path="res://Images/UI/pressed skin.png" id="21_3b2ub"]
-[ext_resource type="Script" path="res://Scripts/UI/AboutDev.gd" id="23_6n15o"]
 [ext_resource type="Texture2D" uid="uid://cxuu6yby6tqel" path="res://Images/UI/focus quit.png" id="23_jn0qa"]
-[ext_resource type="Texture2D" uid="uid://d0vdpwnuin7t2" path="res://Images/UI/focus skin.png" id="27_0hos0"]
 [ext_resource type="Script" path="res://Scripts/UI/Quit.gd" id="27_f8ge0"]
 [ext_resource type="Texture2D" uid="uid://4rc0pwcobt2v" path="res://Images/UI/about dev/Pannel.png" id="34_kfi7p"]
 [ext_resource type="Texture2D" uid="uid://dfdwtk701vbw0" path="res://Images/UI/about dev/exit.png" id="35_tlsa5"]
 [ext_resource type="Texture2D" uid="uid://x6fybhbem16n" path="res://Images/UI/about dev/Hovred exit.png" id="36_chs54"]
 [ext_resource type="Texture2D" uid="uid://bu6w5w2jmd8b5" path="res://Images/UI/about dev/Developer.png" id="37_7p15u"]
-[ext_resource type="Texture2D" uid="uid://cvmrimevrvr6l" path="res://Images/UI/about dev/Hovred developer.png" id="38_hruud"]
 [ext_resource type="Texture2D" uid="uid://bgdnh6h55p2nt" path="res://Images/UI/about dev/Game Project.png" id="39_sp8aa"]
 [ext_resource type="Texture2D" uid="uid://b3blwhsj2hlwk" path="res://Images/UI/about dev/Hovred Game project.png" id="40_5q3td"]
 [ext_resource type="Texture2D" uid="uid://dsgc0tvdnxa" path="res://Images/UI/Options/Pannel.png" id="41_tas7n"]
@@ -52,11 +41,8 @@
 [ext_resource type="StyleBox" uid="uid://dk0bn2eb5rfnn" path="res://Images/UI/Options/Controls/new_style_box_texture.tres" id="46_btfil"]
 [ext_resource type="Texture2D" uid="uid://bbm4l2kiu8rwu" path="res://Images/UI/Options/option button.png" id="46_pc2ta"]
 [ext_resource type="Texture2D" uid="uid://bxq5stcv1k6ne" path="res://Images/UI/Options/Hovred option button.png" id="47_76j5l"]
-[ext_resource type="Texture2D" uid="uid://bl8g7qeapiy2o" path="res://Images/UI/Options/Controls/Controls.png" id="47_htwfm"]
 [ext_resource type="Script" path="res://Scripts/Options/V-sync.gd" id="47_topqc"]
-[ext_resource type="Texture2D" uid="uid://b5opcoqalr55r" path="res://Images/UI/Options/Controls/Controller.png" id="48_if04w"]
 [ext_resource type="Texture2D" uid="uid://d4iuu7vv4nnv7" path="res://Images/UI/Options/Normal option button miror.png" id="48_wmrby"]
-[ext_resource type="Texture2D" uid="uid://cvwrrplmjchxn" path="res://Images/UI/Options/Controls/Hovred controller.png" id="49_wlims"]
 [ext_resource type="Texture2D" uid="uid://boc1i3xomcdka" path="res://Images/UI/Options/hovred option button miror.png" id="49_x4ml8"]
 [ext_resource type="Texture2D" uid="uid://b4es1k66pvygr" path="res://Images/UI/Options/Controls/Keyboard controls.png" id="50_pfwq8"]
 [ext_resource type="Texture2D" uid="uid://c1pqaov32iv5" path="res://Images/UI/Options/Controls/Keyboard.png" id="51_ojjvt"]
@@ -133,18 +119,6 @@ texture = ExtResource("12_3l85a")
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_oh3d5"]
 texture = ExtResource("3_t3128")
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_52ney"]
-texture = ExtResource("20_c1vmu")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_t7ubs"]
-texture = ExtResource("14_sm2ma")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_n8jbb"]
-texture = ExtResource("15_mpbbv")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_q84w8"]
-texture = ExtResource("4_bfif2")
-
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_x47nj"]
 texture = ExtResource("23_jn0qa")
 
@@ -156,18 +130,6 @@ texture = ExtResource("18_hvtyd")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5ddp0"]
 texture = ExtResource("5_o2uwe")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_akg2m"]
-texture = ExtResource("27_0hos0")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4txhh"]
-texture = ExtResource("20_by87x")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_02fld"]
-texture = ExtResource("21_3b2ub")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vnt2x"]
-texture = ExtResource("6_xca84")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_b2axp"]
 texture = ExtResource("36_chs54")
@@ -201,18 +163,6 @@ func OnPressed():
 			Variables.Activate_button = true
 			$\"../../MarginContainer/VBoxContainer/HBoxContainer2/AboutDev\".grab_focus()
 "
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_757iy"]
-texture = ExtResource("38_hruud")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mvvlk"]
-texture = ExtResource("38_hruud")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lwbub"]
-texture = ExtResource("37_7p15u")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l6wfs"]
-texture = ExtResource("37_7p15u")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_otgj8"]
 texture = ExtResource("40_5q3td")
@@ -281,12 +231,6 @@ texture = ExtResource("46_pc2ta")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k0g62"]
 texture = ExtResource("45_m7c8j")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7jhfa"]
-texture = ExtResource("49_wlims")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ixugp"]
-texture = ExtResource("48_if04w")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4b6vr"]
 texture = ExtResource("52_ef3jk")
@@ -387,7 +331,6 @@ script = ExtResource("9_nxv4x")
 custom_minimum_size = Vector2(335, 131)
 layout_mode = 2
 focus_neighbor_left = NodePath("../Continue")
-focus_neighbor_right = NodePath("../../../../HBoxContainer/Skin")
 focus_neighbor_bottom = NodePath("../../VBoxContainer/Options")
 focus_next = NodePath("../../VBoxContainer/Options")
 focus_previous = NodePath("../Continue")
@@ -404,7 +347,6 @@ layout_mode = 2
 custom_minimum_size = Vector2(0, 131)
 layout_mode = 2
 focus_neighbor_top = NodePath("../../HBoxContainer/New Game")
-focus_neighbor_right = NodePath("../../../../HBoxContainer/Skin")
 focus_neighbor_bottom = NodePath("../../HBoxContainer2/Quit")
 focus_next = NodePath("../../HBoxContainer2/Quit")
 focus_previous = NodePath("../../HBoxContainer/New Game")
@@ -417,26 +359,10 @@ script = ExtResource("19_hepjx")
 [node name="HBoxContainer2" type="HBoxContainer" parent="UI/CanvasLayer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 
-[node name="AboutDev" type="Button" parent="UI/CanvasLayer/MarginContainer/VBoxContainer/HBoxContainer2"]
-custom_minimum_size = Vector2(335, 131)
-layout_mode = 2
-focus_neighbor_top = NodePath("../../VBoxContainer/Options")
-focus_neighbor_right = NodePath("../Quit")
-focus_next = NodePath("../Quit")
-focus_previous = NodePath("../../VBoxContainer/Options")
-theme_override_styles/focus = SubResource("StyleBoxTexture_52ney")
-theme_override_styles/hover = SubResource("StyleBoxTexture_t7ubs")
-theme_override_styles/pressed = SubResource("StyleBoxTexture_n8jbb")
-theme_override_styles/normal = SubResource("StyleBoxTexture_q84w8")
-script = ExtResource("23_6n15o")
-
 [node name="Quit" type="Button" parent="UI/CanvasLayer/MarginContainer/VBoxContainer/HBoxContainer2"]
 custom_minimum_size = Vector2(335, 0)
 layout_mode = 2
 focus_neighbor_top = NodePath("../../VBoxContainer/Options")
-focus_neighbor_right = NodePath("../../../../HBoxContainer/Skin")
-focus_next = NodePath("../../../../HBoxContainer/Skin")
-focus_previous = NodePath("../AboutDev")
 theme_override_styles/focus = SubResource("StyleBoxTexture_x47nj")
 theme_override_styles/hover = SubResource("StyleBoxTexture_dvctv")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_qhvax")
@@ -456,22 +382,8 @@ offset_bottom = -94.0
 grow_horizontal = 0
 grow_vertical = 0
 
-[node name="Skin" type="Button" parent="UI/CanvasLayer/HBoxContainer"]
-custom_minimum_size = Vector2(335, 0)
-layout_mode = 2
-focus_neighbor_left = NodePath("../../MarginContainer/VBoxContainer/HBoxContainer2/Quit")
-focus_previous = NodePath("../../MarginContainer/VBoxContainer/HBoxContainer2/Quit")
-theme_override_styles/focus = SubResource("StyleBoxTexture_akg2m")
-theme_override_styles/hover = SubResource("StyleBoxTexture_4txhh")
-theme_override_styles/pressed = SubResource("StyleBoxTexture_02fld")
-theme_override_styles/normal = SubResource("StyleBoxTexture_vnt2x")
-
-[node name="ProjectLogo" type="Sprite2D" parent="UI/CanvasLayer"]
-position = Vector2(510, 144)
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("7_fco76")
-
 [node name="Pannel2" type="Sprite2D" parent="UI/CanvasLayer"]
+visible = false
 position = Vector2(878, 542.6)
 scale = Vector2(0.4, 0.4)
 texture = ExtResource("34_kfi7p")
@@ -482,28 +394,11 @@ offset_left = 1162.0
 offset_top = -860.0
 offset_right = 1312.0
 offset_bottom = -710.0
-focus_neighbor_bottom = NodePath("../Developer")
-focus_next = NodePath("../Developer")
 theme_override_styles/focus = SubResource("StyleBoxTexture_b2axp")
 theme_override_styles/hover = SubResource("StyleBoxTexture_wpmju")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_k3x83")
 theme_override_styles/normal = SubResource("StyleBoxTexture_08dr6")
 script = SubResource("GDScript_ndlxl")
-
-[node name="Developer" type="Button" parent="UI/CanvasLayer/Pannel2"]
-custom_minimum_size = Vector2(2800, 230)
-offset_left = -1460.0
-offset_top = -548.0
-offset_right = 1340.0
-offset_bottom = -318.0
-focus_neighbor_top = NodePath("../Exit")
-focus_neighbor_bottom = NodePath("../GameProject")
-focus_next = NodePath("../GameProject")
-focus_previous = NodePath("../Exit")
-theme_override_styles/focus = SubResource("StyleBoxTexture_757iy")
-theme_override_styles/hover = SubResource("StyleBoxTexture_mvvlk")
-theme_override_styles/pressed = SubResource("StyleBoxTexture_lwbub")
-theme_override_styles/normal = SubResource("StyleBoxTexture_l6wfs")
 
 [node name="GameProject" type="Button" parent="UI/CanvasLayer/Pannel2"]
 custom_minimum_size = Vector2(2800, 230)
@@ -511,8 +406,6 @@ offset_left = -1470.0
 offset_top = 20.0
 offset_right = 1330.0
 offset_bottom = 250.0
-focus_neighbor_top = NodePath("../Developer")
-focus_previous = NodePath("../Developer")
 theme_override_styles/focus = SubResource("StyleBoxTexture_otgj8")
 theme_override_styles/hover = SubResource("StyleBoxTexture_fwb76")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_kfoor")
@@ -625,24 +518,8 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_k0g62")
 [node name="Controls" type="HBoxContainer" parent="UI/CanvasLayer/VBoxContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
 layout_mode = 2
 
-[node name="Controls" type="Sprite2D" parent="UI/CanvasLayer/VBoxContainer/VBoxContainer/ScrollContainer/VBoxContainer/Controls"]
-position = Vector2(284, 260)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("47_htwfm")
-
-[node name="Button" type="Button" parent="UI/CanvasLayer/VBoxContainer/VBoxContainer/ScrollContainer/VBoxContainer/Controls/Controls"]
-custom_minimum_size = Vector2(700, 200)
-offset_left = -353.333
-offset_top = -880.0
-offset_right = 346.667
-offset_bottom = -730.0
-theme_override_styles/focus = SubResource("StyleBoxTexture_7jhfa")
-theme_override_styles/hover = SubResource("StyleBoxTexture_7jhfa")
-theme_override_styles/pressed = SubResource("StyleBoxTexture_7jhfa")
-theme_override_styles/normal = SubResource("StyleBoxTexture_ixugp")
-
 [node name="KeyboardControls" type="Sprite2D" parent="UI/CanvasLayer/VBoxContainer/VBoxContainer/ScrollContainer/VBoxContainer/Controls"]
-position = Vector2(815, 270)
+position = Vector2(614, 272.4)
 scale = Vector2(0.3, 0.3)
 texture = ExtResource("50_pfwq8")
 
@@ -662,6 +539,7 @@ custom_minimum_size = Vector2(0, 570)
 layout_mode = 2
 
 [node name="Help" type="Button" parent="UI/CanvasLayer/VBoxContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+visible = false
 custom_minimum_size = Vector2(1200, 100)
 layout_mode = 2
 theme_override_styles/focus = SubResource("StyleBoxTexture_02uji")
@@ -670,6 +548,7 @@ theme_override_styles/pressed = SubResource("StyleBoxTexture_02uji")
 theme_override_styles/normal = SubResource("StyleBoxTexture_nonmj")
 
 [node name="Button" type="Button" parent="UI/CanvasLayer/VBoxContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+visible = false
 custom_minimum_size = Vector2(1200, 80)
 layout_mode = 2
 theme_override_styles/focus = SubResource("StyleBoxTexture_q852u")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=3 uid="uid://kghu3qp3eph4"]
+[gd_scene load_steps=32 format=3 uid="uid://kghu3qp3eph4"]
 
 [ext_resource type="Texture2D" uid="uid://dsgc0tvdnxa" path="res://Images/UI/Options/Pannel.png" id="1_es54o"]
 [ext_resource type="Texture2D" uid="uid://dfdwtk701vbw0" path="res://Images/UI/about dev/exit.png" id="2_0en5o"]
@@ -13,9 +13,6 @@
 [ext_resource type="Texture2D" uid="uid://boc1i3xomcdka" path="res://Images/UI/Options/hovred option button miror.png" id="11_cikl2"]
 [ext_resource type="Texture2D" uid="uid://bhu81erfvt73n" path="res://Images/UI/Options/Control settings.png" id="12_txe4k"]
 [ext_resource type="StyleBox" uid="uid://dk0bn2eb5rfnn" path="res://Images/UI/Options/Controls/new_style_box_texture.tres" id="13_cmdbo"]
-[ext_resource type="Texture2D" uid="uid://bl8g7qeapiy2o" path="res://Images/UI/Options/Controls/Controls.png" id="14_e25pr"]
-[ext_resource type="Texture2D" uid="uid://b5opcoqalr55r" path="res://Images/UI/Options/Controls/Controller.png" id="15_ehvhw"]
-[ext_resource type="Texture2D" uid="uid://cvwrrplmjchxn" path="res://Images/UI/Options/Controls/Hovred controller.png" id="16_77wll"]
 [ext_resource type="Texture2D" uid="uid://b4es1k66pvygr" path="res://Images/UI/Options/Controls/Keyboard controls.png" id="17_m6adn"]
 [ext_resource type="Texture2D" uid="uid://c1pqaov32iv5" path="res://Images/UI/Options/Controls/Keyboard.png" id="18_hjc0d"]
 [ext_resource type="Texture2D" uid="uid://c5f136u74t1eh" path="res://Images/UI/Options/Controls/Hovred Keyboard.png" id="19_omtal"]
@@ -75,12 +72,6 @@ texture = ExtResource("9_rqvbp")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k0g62"]
 texture = ExtResource("12_txe4k")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7jhfa"]
-texture = ExtResource("16_77wll")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ixugp"]
-texture = ExtResource("15_ehvhw")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4b6vr"]
 texture = ExtResource("19_omtal")
@@ -188,24 +179,8 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_k0g62")
 [node name="Controls" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer"]
 layout_mode = 2
 
-[node name="Controls" type="Sprite2D" parent="VBoxContainer/ScrollContainer/VBoxContainer/Controls"]
-position = Vector2(284, 260)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("14_e25pr")
-
-[node name="Button" type="Button" parent="VBoxContainer/ScrollContainer/VBoxContainer/Controls/Controls"]
-custom_minimum_size = Vector2(700, 200)
-offset_left = -353.333
-offset_top = -880.0
-offset_right = 346.667
-offset_bottom = -730.0
-theme_override_styles/focus = SubResource("StyleBoxTexture_7jhfa")
-theme_override_styles/hover = SubResource("StyleBoxTexture_7jhfa")
-theme_override_styles/pressed = SubResource("StyleBoxTexture_7jhfa")
-theme_override_styles/normal = SubResource("StyleBoxTexture_ixugp")
-
 [node name="KeyboardControls" type="Sprite2D" parent="VBoxContainer/ScrollContainer/VBoxContainer/Controls"]
-position = Vector2(815, 270)
+position = Vector2(605, 280)
 scale = Vector2(0.3, 0.3)
 texture = ExtResource("17_m6adn")
 

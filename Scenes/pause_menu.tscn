@@ -110,6 +110,7 @@ offset_bottom = 240.0
 grow_vertical = 2
 
 [node name="Bg" type="Sprite2D" parent="CanvasLayer/VBoxContainer"]
+visible = false
 position = Vector2(633, 162)
 texture = ExtResource("2_kd2u1")
 
