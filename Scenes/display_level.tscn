@@ -1,8 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://e7tn286xva6"]
+[gd_scene load_steps=11 format=3 uid="uid://e7tn286xva6"]
 
 [ext_resource type="Script" path="res://Scripts/LevelTracker/LevelTracker.gd" id="1_wsa1c"]
 [ext_resource type="Texture2D" uid="uid://do4tqsh8dtwcf" path="res://Images/UI/LEVEL DISPLAY.png" id="2_xbpol"]
 [ext_resource type="FontFile" uid="uid://c8xu7afu4hwpp" path="res://Fonts/ADLaMDisplay-Regular.ttf" id="3_n7ric"]
+[ext_resource type="AudioStream" uid="uid://cu4hgp8vau6ia" path="res://sound/game-music-loop-3-144252.mp3" id="4_sc0qo"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_4neve"]
 font = ExtResource("3_n7ric")
@@ -136,3 +137,8 @@ script = SubResource("GDScript_atdmr")
 libraries = {
 "": SubResource("AnimationLibrary_jvvgu")
 }
+
+[node name="bgsound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_sc0qo")
+volume_db = 1.0
+autoplay = true
