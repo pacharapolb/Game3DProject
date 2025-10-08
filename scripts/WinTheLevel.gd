@@ -3,6 +3,7 @@ extends Area3D
 var Entered = false
 var Exited = false
 var EntereToSecondArea = false
+@onready var bgsound: AudioStreamPlayer = $bgsound
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -12,7 +13,6 @@ func _ready():
 	connect("body_entered", Callable(self, "_OnBodyEntered")) 
 	connect("body_exited", Callable(self, "_OnBodyExited"))
 	$Area3D.connect("body_entered" , Callable(self, "_OnBodyEntered2"))
-	
 
 func _OnBodyEntered(area):
 	if area.name == "Player":
